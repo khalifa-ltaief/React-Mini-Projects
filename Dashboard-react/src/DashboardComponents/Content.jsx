@@ -3,7 +3,7 @@ import { RiDrinks2Fill } from "react-icons/ri";
 import { BiAnalyse } from "react-icons/bi";
 import { BiDish } from "react-icons/bi";
 import { MdFavoriteBorder } from "react-icons/md";
-import "./Home.css";
+import "./Content.css";
 import {
   LineChart,
   Line,
@@ -17,7 +17,7 @@ import {
 
 
 
-function Home() {
+function Content() {
   const data = [
     {
       name: "Page A",
@@ -202,4 +202,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Content;
